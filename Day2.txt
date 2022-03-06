@@ -1,0 +1,88 @@
+﻿Day -2 : Request & Response cycle
+
+
+
+
+Task : 
+ 
+1. List 5 difference between Browser JS(console) v Nodejs watch & summary 5 points - 
+-> Both the browser and Node.js use JavaScript as their programming language.Differencec are as follows
+
+
+i. Execcution :
+         
+ NodeJS - is a cross-platform and opensource Javascript runtime environment that allows the 
+          javascript to be run on your local machine.
+
+
+
+
+ Browser JS - is scripting language which runs on sandbox in browser with very limited access 
+                   to local computer's resources.
+
+
+
+
+ii. System Access :
+         
+ NodeJS - it is mostly used at server side , full accesss of local system.
+
+
+
+
+ Browser JS - it is basically used on the client-side on browser sabdbox, limited system 
+              access. 
+
+
+
+
+iii. Developement :
+         
+ NodeJS - is used in server side development. 
+
+
+
+
+ Browser JS - is used in frontend development.
+
+
+
+
+iv.Global  :
+         
+ NodeJS - in server-side JS we have the global object. This is the most publicly/globally 
+          accessible object in node.js. 
+
+
+
+
+ Browser JS - in browser-side JS we have the window object. This is the upmost parent object in 
+              front-end/client-side JS.
+
+
+v.Location  :
+         
+ NodeJS - here, "location" object is related to a particular url; that means it is for page 
+          specific.
+
+
+
+
+ Browser JS - here ,  "location" is another predefined object in browsers, that has all the 
+              information about the url we have loaded.
+
+
+
+
+2.Execute the below code and write your description in txt file
+
+
+typeof(1)                        -> number 
+typeof(1.1)                        -> number 
+typeof('1.1')                -> string
+typeof(true)                -> boolean 
+typeof(null)                -> object
+typeof(undefined)        -> undefined
+typeof([])                        -> object
+typeof({})                        -> object 
+typeof(NaN)                        -> number
