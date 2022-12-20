@@ -32,6 +32,9 @@ ii. System Access :
 
  Browser JS - it is basically used on the client-side on browser sabdbox, limited system 
               access. 
+              
+              
+              
 
 
 
@@ -86,3 +89,18 @@ typeof(undefined)        -> undefined
 typeof([])                        -> object
 typeof({})                        -> object 
 typeof(NaN)                        -> number
+
+
+Task Difference between document and window objects
+
+Window Object :
+The Window object is the top level object in JavaScript, and contains in itself several other objects, such as "document", "history" etc.
+The window object represents an open window in a browser.
+If a document contain frames (<iframe> tags), the browser creates one window object for the HTML document, and one additional window object for each frame.
+
+Document Object in Javascript:
+
+When an HTML document is loaded into a web browser, it becomes a document object.
+The document object is the root node of the HTML document and the "owner" of all other nodes :( element nodes, text nodes, attribute nodes, and comment nodes).
+The document object provides properties and methods to access all node objects, from within JavaScript.
+The document is a part of the Window object and can be accessed as window.document.
